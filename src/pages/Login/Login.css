@@ -1,0 +1,48 @@
+.login{
+    justify-content: center;
+    align-items: center;
+}
+.login-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #b4506f;
+    margin-top: 100px;
+    border-radius: 40px;
+    padding: 40px;
+    width: fit-content;
+}
+.login-card p{
+    color: #fff;
+}
+.login-card h1{
+    color:#f29938;
+    font-weight: 800;
+    text-align: center;
+    margin:0;
+    font-size: 3rem;
+}
+.login-card input{
+    padding: 5px 15px;
+    display: flex;
+    background:#fff1e1;
+    border-radius: 10px;
+    border: none;
+    margin: 20px 0;
+}
+.login-card button{
+    margin-top: 20px;
+    align-self: center;
+    width: 100%;
+}
+.make-account{
+    color: #fd9e8d;
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 15px;
+}
+.make-account p{
+    color: #fd9e8d;
+    font-weight: 600;
+
+}

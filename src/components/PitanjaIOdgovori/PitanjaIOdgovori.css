@@ -1,0 +1,44 @@
+.pio{
+    background-image: url('../../assets/pio.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items:flex-end;
+}
+.pio-text {
+    display: flex;
+    width: 50%;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.pio-text h3{
+    font-size: 3rem;
+    font-weight: 800;
+    color: #fff;
+}
+.pio-text h5{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.pio-text h5, .pio-text p{
+    color:#fff;
+    margin: 10px;
+}
+.pio button{
+    align-self: center;
+    background: #b4506f;
+    border-color: #b4506f;
+}
+.pio button:nth-child(2){
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: #486f77;
+    border-color: #486f77;
+    margin-top: 30px;
+    padding: 5px 25px;
+}

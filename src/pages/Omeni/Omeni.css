@@ -1,0 +1,39 @@
+.about{
+    background: #fff1e1;
+}
+.about-hero h3{
+    background-image: url('../../assets/about-bg.png');
+    background-position: bottom;
+    background-size: cover;
+    min-height: 100vh;
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+.about-next{
+    padding: 80px 300px;
+}
+.first, .second{
+    width: 50%;
+}
+.first{
+    margin-left: 20px;
+}
+.first h3, .first p, .second h3, .second p{
+    color: #b4506f;;
+}
+.first h3, .second h3{
+    font-weight: 800;
+}
+.second{
+    align-self: flex-end;
+    margin-right: 20px;
+}
+.about-next{
+    display: flex;
+    flex-direction: column;
+}
+.about-next img{
+    width: 100px;
+}

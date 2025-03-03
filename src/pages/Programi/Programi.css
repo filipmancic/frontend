@@ -1,0 +1,34 @@
+.programi-page h2{
+    text-align: center;
+    padding: 80px 150px 0;
+    text-transform: none;
+}
+.programi-page{
+    background: linear-gradient(90deg, #fff7ad, #ffa9f9);
+}
+.card{
+    margin: 20px 10px 40px;
+    width: 300px;
+}
+.cards{
+    padding: 0 80px;
+}
+.card h4{
+    font-weight: 800;
+}
+.special h5, .special p, .special, .special h4, .special h6{
+    color: white;
+}
+
+.special .break{
+    background-color: white;
+}
+@media (max-width: 768px) {
+    .programi-page h2{
+        font-size: 2rem;
+        padding: 80px 0 0;
+    }
+    .card{
+        margin: 20px auto;
+    }
+}

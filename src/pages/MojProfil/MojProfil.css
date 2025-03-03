@@ -1,0 +1,12 @@
+.moj-profil{
+    background-image: url('../../assets/gym-gradient.webp');
+    background-size: cover;
+    min-height: 100vh;
+}
+.log{
+    margin: 120px 30px;
+    font-size: 2rem;
+}
+.log a {
+    text-decoration: none;
+}

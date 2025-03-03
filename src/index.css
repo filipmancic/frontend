@@ -1,0 +1,24 @@
+body {
+  background-image: url('./assets/gym-gradient.webp');
+  background-size: cover;
+  margin: 0;
+}
+.button {
+  cursor: pointer;
+  position: relative;
+  padding: 5px 12px;
+  color: #fff;
+  border: 2px solid #f29938;
+  border-radius: 20px;
+  background-color: #f29938;
+  font-weight: 600;
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.320, 1);
+  overflow: hidden;
+  margin-top: 10px;
+  width: fit-content;
+}
+.button:hover {
+  color: rgb(242, 153, 56);
+  background-color: #e6e6e6;
+  box-shadow: 0 0px 20px rgba(242, 153, 56, 0.4);
+}
